@@ -1,0 +1,13 @@
+#tarefas{
+    position: fixed;
+    left: 10px;
+    top: 100px;
+}
+
+#tarefas li {
+    padding: 12px;
+    background-color: #dff0d8;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: cursive;
+}

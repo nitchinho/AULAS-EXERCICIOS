@@ -1,0 +1,21 @@
+.container {
+    padding: 80px 60px;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+  } 
+
+  .card {
+    width: 140px;
+    *height: 330px;*
+    padding: 10px 10px;
+    border-radius: 5%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+  }

@@ -1,21 +1,47 @@
 .container {
-    padding: 80px 60px;
-    margin: 0 auto;
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    
-  } 
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
 
-  .card {
-    width: 140px;
-    *height: 330px;*
-    padding: 10px 10px;
-    border-radius: 5%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+.card {
+  height: 200px;
+  margin: 1%;
+  background-color: aliceblue;
+  border-radius: 4%;  
+  flex-grow: 1;
+  flex-basis: 200px;
 
-  }
+
+}
+
+.card button {
+
+  box-shadow: 0px 5px 10px 3px rgb(100, 100, 100);
+  background-color: rgb(255, 252, 248);
+  padding: 7px 15px;
+  font-weight: bold;
+
+}
+
+.card h2 {  
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card p {
+  font-style: italic;
+  font-size: large;  
+}
+
+.card img {
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 1px 1px 1px grey;  
+}

@@ -37,3 +37,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
   }
+
+  .ctn_info button {
+    box-shadow: 0 2px 2px 0 rgb(192, 42, 42);
+  }

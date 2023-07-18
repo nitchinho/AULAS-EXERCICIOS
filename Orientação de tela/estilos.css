@@ -1,0 +1,15 @@
+@media (orientation: landscape) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: blue;
+    }
+}
+
+@media (orientation: portrait) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        background-color: red;
+    }
+}

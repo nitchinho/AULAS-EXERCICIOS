@@ -1,0 +1,21 @@
+.container h2 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.container h2::after {
+  content: "";
+  position: relative;
+  bottom: 3px;
+  width: 25px;
+  height: 4px;
+}
+
+@media (max-width: 425px) {
+    .container { flex-direction: column; }
+
+    .box { width: 100%; }
+
+    .box a { text-decoration: none; }
+}

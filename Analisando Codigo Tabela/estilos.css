@@ -1,0 +1,20 @@
+thead {
+    background-color: black;
+    color: white;
+}
+
+thead tr {
+    padding: 20px 10px;
+}
+
+tbody tr {
+    padding: 20px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #CCCCCC;
+}
+
+tbody tr:nth-child(even) {
+    background-color: gray;
+}

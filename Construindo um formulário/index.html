@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+
+  <!-- De acordo com as instruções abaixo, qual das alternativas constrói um formulário que contenha:
+
+- Uma forma de enviar os dados coletados do formulário para o back-end;
+- Um título;
+- Os elementos do formulário devem ser agrupados em uma área que tenha um rótulo;
+- Um campo de texto para o nome;
+- Um campo de data para a data de nascimento;
+- Um campo para telefone;
+- Os campos devem ter um identificador;
+- Os campos devem ter tipo, nome e id adequadas;
+- Uma lista de seleção com opções de escolaridade;
+- Um botão que o envie os dados coletados do formulário; -->
+
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="estilos.css">    
+    
+    <title>AULAS</title>
+  </head>
+  
+  <body>
+    <form action="validacao.php" method="post">
+      <h1>Formulário</h1>
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" />
+        <label for="data_nascimento">Data de Nascimento</label>
+        <input type="date" name="data_nascimento" id="data_nascimento" />
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="(00) 00000-0000" />
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="Informe o E-mail">
+        <label>Escolaridade</label>
+        <select name="escolaridade">
+          <option value="">Selecione sua escolaridade</option>
+          <option value="fundamental">Ensino Fundamental</option>
+          <option value="medio">Ensino Médio</option>
+          <option value="medio-tecnico">Ensino Médio Técnico</option>
+          <option value="superior-incompleto">Ensino Superior Incompleto</option>
+          <option value="superior-completo">Ensino Superior Completo</option>
+        </select>
+      </fieldset>
+      <button type="submit">Enviar cadastro</button>
+    </form>
+  </body>
+  </html>

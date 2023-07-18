@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário - Rico Contabilidade</title>
+</head>
+
+<body>
+    <main>
+        <div class="formulario">
+            <form action="form_action.php" method="post">
+                <input type="text" name="nome" placeholder="Nome Completo" required>
+                <input type="date" name="data_nascimento" placeholder="Data de Nascimento" required>
+                <input type="text" name="nome_empresa" placeholder="Nome da Empresa">
+                <input type="checkbox" name="area_contabil" value="1"> Área Contábil
+                <input type="checkbox" name="area_fiscal" value="1"> Área Fiscal
+                <input type="checkbox" name="area_dpto_pessoal" value="1"> Área de Depto Pessoal
+                <input type="checkbox" name="abertura_encerramento_empresa" value="1"> Abertura/Encerramento de Empresa
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

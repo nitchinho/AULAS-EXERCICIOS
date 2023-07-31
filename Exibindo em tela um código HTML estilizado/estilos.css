@@ -1,0 +1,24 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: #000000;
+    text-align: center;
+}
+
+.container h1 {
+  padding: 10px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.lista {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.lista h2 {
+  margin-bottom: 20px;
+}

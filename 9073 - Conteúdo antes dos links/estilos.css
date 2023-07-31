@@ -1,0 +1,18 @@
+.lista-links {
+    list-style: none;
+  }
+  
+  .lista-links a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .lista-links a::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url("img/link.png");
+    background-position: center;
+    background-size: cover;
+  }

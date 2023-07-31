@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Você é um programador front-end da empresa Magazine Luiza. Um dos pedidos sob sua responsabilidade é estilizar um formulário.
+
+Obs.: A estilização deve ser realizada seguindo a ordem das orientações.
+
+- Todos os estilos devem ser aplicados através da classe dos elementos;
+- O formulário deve ter:
+. largura máxima de 500px;
+. espaçamento interno de 20px para todos os lados (utilize a escrita compacta com apenas um valor);
+. cor de fundo "#0086ffde" (utilize a propriedade específica);
+. cor do texto "#fff";
+. arredondamento das bordas de 10px (utilize a escrita compacta com um valor);
+- O fieldset deve ter:
+. comportamento de tela flexível (nesse caso, os campos devem ser exibidos um ao lado do outro);
+. os elementos filhos (<div>) devem ter um espaço entre eles; O espaço deve ocupar a maior área possível, de forma que cada elemento fique encostado na sua respectiva margem;
+. borda de 1px de largura, sólida e cor "#fff";
+. margem inferior de 20px (utilize a propriedade específica);
+. arredondamento das bordas de 5px (utilize a escrita compacta com apenas um valor);
+- As div's devem ter:
+. comportamento de tela flexível (alinhamento em coluna);
+. o label deve ser exibido acima do input.
+- O botão deve ter:
+. largura de 150px;
+. espaçamento interno superior e inferior de "5px" e laterais de "0px" (utilize a escrita compacta com dois valores e "px" após o zero);
+. a linha da borda deve ser removida;
+. a cor de fundo deve ser "#fff" (utilize a propriedade específica);
+. a cor do texto deve ser "#0086ffde";
+. arredondamento das bordas de 5px (utilize a escrita compacta com apenas um valor). -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="estilos.css">
+
+  <title>AULAS</title>
+</head>
+
+<body>
+  <form class="cadastro-dev-magalu" action="valida.php" method="post">
+    <h1>Cadastro de Dev's Magalu</h1>
+
+    <fieldset class="dados-contato">
+        <legend>Dados Pessoais</legend>
+
+        <div class="campo-formulario">
+            <label>Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Insira seu nome">
+        </div>
+
+        <div class="campo-formulario">
+            <label>Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Insira seu sobrenome">
+        </div>
+    </fieldset>
+
+    <fieldset class="dados-contato">
+        <legend>Dados de contato</legend>
+
+        <div class="campo-formulario">
+            <label>Tel:</label>
+            <input type="tel" name="tel" id="tel" placeholder="(00) 00000-0000">
+        </div>
+
+        <div class="campo-formulario">
+            <label>E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="email@email.com">
+        </div>
+    </fieldset>
+
+    <button class="btn-cadastro-dev" type="submit">Enviar</button>
+</form>
+</body>
+
+</html>

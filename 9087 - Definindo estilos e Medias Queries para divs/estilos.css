@@ -1,0 +1,31 @@
+.secao-banner {
+    width: 100%;
+    display: flex;
+}
+
+.imagem-de-fundo {
+    width: 50%;
+    background-image: url("./assets/banner.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.container-texto {
+    width: 50%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fafbfc;
+}
+
+@media screen and (max-width: 768px) {
+
+    .imagem-de-fundo {
+        display: none;
+      }
+    
+      .container-texto {
+        width: 100%;
+      }
+}
